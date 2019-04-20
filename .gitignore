@@ -1,0 +1,7 @@
+.DS_Store
+/.wp-tests
+/assets/dist
+/node_modules
+/vendor
+/wp
+coverage

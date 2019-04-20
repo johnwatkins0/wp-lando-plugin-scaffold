@@ -1,0 +1,34 @@
+language:
+    - php
+    - node_js
+
+php:
+    - 7.2
+
+node_js:
+    - stable
+
+services:
+    - docker
+
+addons:
+    apt:
+        packages:
+            - docker-ce
+
+notifications: false
+
+before_install:
+    - sudo apt-get -y update
+    - sudo apt-get -y install cgroup-bin curl
+    - curl -fsSL -o /tmp/lando-latest.deb http://installer.kalabox.io/lando-latest-dev.deb
+    - sudo dpkg -i /tmp/lando-latest.deb
+    - lando version
+
+install:
+    - lando start -- -v
+    - npm install
+    - composer release
+
+script:
+    - npm test

@@ -1,0 +1,20 @@
+{
+	"name": "johnwatkins0/wp-lando-plugin-scaffold",
+	"description": "",
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.4",
+		"automattic/vipwpcs": "^0.4.0",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.5.0"
+	},
+	"require": {
+		"johnwatkins0/wp-autoload": "^1.0"
+	},
+	"scripts": {
+		"test": "lando phpunit --coverage-html tests/coverage/",
+		"fix": "composer install && vendor/bin/phpcbf -p",
+		"lint": "composer install && vendor/bin/phpcs -p",
+		"release": [
+			"rm -rf vendor composer.lock && composer install --no-dev --prefer-dist --optimize-autoloader --no-scripts"
+		]
+	}
+}

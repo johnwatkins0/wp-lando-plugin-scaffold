@@ -1,0 +1,26 @@
+name: wp-lando-plugin-scaffold
+recipe: wordpress
+env_file:
+    - .env
+config:
+    webroot: wp
+    php: "7.2"
+    via: nginx
+    database: mariadb
+    # If you are having trouble getting xdebug to work please see:
+    # https://docs.devwithlando.io/tutorials/php.html#toggling-xdebug
+    xdebug: true
+    config:
+        vhosts: .nginx-wordpress.conf
+services:
+    appserver:
+        run:
+            - bash /app/bin/setup.sh
+        build_as_root:
+            - apt-get update -y && apt-get install -y subversion
+        composer:
+            phpunit/phpunit: "^6"
+tooling:
+    phpunit:
+        service: appserver
+        description: "Run PHP Unit tests: lando phpunit"
