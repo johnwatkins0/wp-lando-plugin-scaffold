@@ -1,6 +1,6 @@
 <?php
 
-namespace JohnWatkins0\Lando_Plugin_Scaffold\Tests;
+namespace YourNamepace\Lando_Plugin_Scaffold\Tests;
 
 use \WP_UnitTestCase as WP_UnitTestCase;
 

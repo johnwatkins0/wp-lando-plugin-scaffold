@@ -1,17 +1,17 @@
 {
-	"name": "@johnwatkins0/wp-lando-plugin-scaffold",
+	"name": "@yournamespace/wp-lando-plugin-scaffold",
 	"version": "0.1.0",
 	"description": "",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/johnwatkins0/wp-lando-plugin-scaffold.git"
+		"url": "git+https://github.com/yournamespace/wp-lando-plugin-scaffold.git"
 	},
 	"author": "John Watkins, Colby Communications",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/johnwatkins0/wp-lando-plugin-scaffold/issues"
+		"url": "https://github.com/yournamespace/wp-lando-plugin-scaffold/issues"
 	},
-	"homepage": "https://github.com/johnwatkins0/wp-lando-plugin-scaffold#readme",
+	"homepage": "https://github.com/yournamespace/wp-lando-plugin-scaffold#readme",
 	"scripts": {
 		"start": "rm -rf assets/dist && webpack -w --mode=development",
 		"build": "rm -rf assets/dist && webpack --mode=production",

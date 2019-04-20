@@ -1,5 +1,5 @@
 {
-	"name": "johnwatkins0/wp-lando-plugin-scaffold",
+	"name": "yournamespace/wp-lando-plugin-scaffold",
 	"description": "",
 	"require-dev": {
 		"squizlabs/php_codesniffer": "^3.4",
@@ -7,7 +7,7 @@
 		"dealerdirect/phpcodesniffer-composer-installer": "^0.5.0"
 	},
 	"require": {
-		"johnwatkins0/wp-autoload": "^1.0"
+		"yournamespace/wp-autoload": "^1.0"
 	},
 	"scripts": {
 		"test": "lando phpunit --coverage-html tests/coverage/",

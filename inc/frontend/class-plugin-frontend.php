@@ -2,10 +2,10 @@
 /**
  * Setup of plugin non-admin functionality.
  *
- * @package johnwatkins0/wp-land-plugin-scaffold
+ * @package yournamespace/wp-land-plugin-scaffold
  */
 
-namespace JohnWatkins0\Lando_Plugin_Scaffold\Frontend;
+namespace YourNamepace\Lando_Plugin_Scaffold\Frontend;
 
 /**
  * Plugin_Admin class
