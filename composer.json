@@ -7,7 +7,7 @@
 		"dealerdirect/phpcodesniffer-composer-installer": "^0.5.0"
 	},
 	"require": {
-		"yournamespace/wp-autoload": "^1.0"
+		"johnwatkins0/wp-autoload": "^1.0"
 	},
 	"scripts": {
 		"test": "lando phpunit --coverage-html tests/coverage/",

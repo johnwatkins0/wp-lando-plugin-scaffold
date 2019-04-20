@@ -22,7 +22,7 @@ require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
  * WordPress has unique naming conventions for classes and class files, so we use a
  * custom WordPress-specific autoloader.
  */
-\YourNamepace\WPAutoload\register_wp_autoload( __NAMESPACE__, PLUGIN_PATH . 'inc' );
+\JohnWatkins0\WPAutoload\register_wp_autoload( __NAMESPACE__, PLUGIN_PATH . 'inc' );
 
 $admin    = new Plugin_Admin();
 $frontend = new Plugin_Frontend();

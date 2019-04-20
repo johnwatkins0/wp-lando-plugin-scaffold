@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9dfcc0dd085da9b7156c322137631c0b",
+    "content-hash": "07ed0d5ee75f691c0ce72dbca5c90fe8",
     "packages": [
         {
             "name": "johnwatkins0/wp-autoload",
@@ -40,40 +40,6 @@
             ],
             "description": "Autoloader for WordPress classes, traits, and interfaces.",
             "time": "2019-01-13T22:02:29+00:00"
-        },
-        {
-            "name": "johnwatkins0/wp-singleton",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/johnwatkins0/wp-singleton.git",
-                "reference": "df09a84b12364b56e6fcb92d8ad1c09954b6bce3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/johnwatkins0/wp-singleton/zipball/df09a84b12364b56e6fcb92d8ad1c09954b6bce3",
-                "reference": "df09a84b12364b56e6fcb92d8ad1c09954b6bce3",
-                "shasum": ""
-            },
-            "require-dev": {
-                "squizlabs/php_codesniffer": "^3.4",
-                "wp-coding-standards/wpcs": "^1.2"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "wp-singleton.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "John Watkins",
-                    "email": "johnwatkins0@gmail.com"
-                }
-            ],
-            "description": "A singleton trait for use in WordPress projects",
-            "time": "2019-01-13T22:42:45+00:00"
         }
     ],
     "packages-dev": [
@@ -190,16 +156,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.4.1",
+            "version": "3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "5b4333b4010625d29580eb4a41f1e53251be6baa"
+                "reference": "b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/5b4333b4010625d29580eb4a41f1e53251be6baa",
-                "reference": "5b4333b4010625d29580eb4a41f1e53251be6baa",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8",
+                "reference": "b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8",
                 "shasum": ""
             },
             "require": {
@@ -237,7 +203,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-03-19T03:22:27+00:00"
+            "time": "2019-04-10T23:49:02+00:00"
         },
         {
             "name": "wp-coding-standards/wpcs",
